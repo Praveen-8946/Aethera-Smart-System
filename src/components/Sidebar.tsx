@@ -6,7 +6,7 @@ export const Sidebar: React.FC = () => {
   const context = useContext(AppContext);
   if (!context) return null;
 
-  const { activeTab, setActiveTab, alarmMode, usingFallback } = context;
+  const { activeTab, setActiveTab, usingFallback } = context;
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [

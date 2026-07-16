@@ -7,7 +7,7 @@ export const Dashboard: React.FC = () => {
   const context = useContext(AppContext);
   if (!context) return null;
 
-  const { telemetry, alarmMode, devices, automations, setActiveTab } = context;
+  const { telemetry, alarmMode, devices, setActiveTab } = context;
   const totalActiveDevices = devices.filter(d => d.isOn).length;
 
   return (

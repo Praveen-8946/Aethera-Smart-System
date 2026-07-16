@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect, useMemo } from 'react';
+import React, { createContext, useState, useEffect } from 'react';
 import { deviceService, telemetryService, automationService, logService } from '../services/apiClient';
 
 // Interfaces mapping models
